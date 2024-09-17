@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #eef7fc, #e3f4fc, #f5e8f6);
+    font-family: 'Arial', sans-serif;
+}
+
+.pricing-table {
+    display: flex;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    background-color: #fefefe;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    margin: 0 15px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.card h1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card .price {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.card .description {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.card .subtext {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-free {
+    background-color: #a785e1;
+    color: white;
+}
+
+.btn-standard {
+    background-color: #6ad3cd;
+    color: white;
+}
+
+.btn-premium {
+    background-color: #f7c471;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
